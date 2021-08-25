@@ -6,4 +6,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/princekrvert/Tblast?color=%2357&style=for-the-badge)
 
 ![20210825_195739](https://user-images.githubusercontent.com/56459297/130814850-395685a3-7814-44a3-a546-fb09287373e5.jpg)
-
+## Termux setup
+git clone https://github.com/princekrvert/Tblast.git
+chomd +x Tblast.py
+./Tblast.py
