@@ -16,6 +16,3 @@ chomd +x Tblast.py
 ```
 git clone https://github.com/princekrvert/Tblast.git;chomd +x Tblast.py;python Tblast.py -h
 ```
-### Termux screenshot
-
-![20210825_204406](https://user-images.githubusercontent.com/56459297/130817407-4955ecc3-c548-4839-b82b-26ffdc016df2.jpg)
