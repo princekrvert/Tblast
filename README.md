@@ -12,3 +12,7 @@ git clone https://github.com/princekrvert/Tblast.git
 chomd +x Tblast.py
 ./Tblast.py
 ```
+## One line cmd
+```
+git clone https://github.com/princekrvert/Tblast.git;chomd +x Tblast.py;python Tblast.py -h
+```
