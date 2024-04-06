@@ -23,12 +23,17 @@ subject = s_mail
 if args.file:
     print("file name present")
 msg_mail = input("\033[31;1m Enter msg to send")
-html_content = "hi prince"
-sender = {"name":"Vishal Kadam","email":""}
-to = [{"email":"youremail.com","name":""}]
+html_content = msg_mail
+sender_name = input("\033[32;1m Enter the sender name: ")
+sender_email = input("\033[32;1m Enter the sender email: ")
+sender = {"name":sender_name,"email":sender_email}
+target_name = input("\033[32;1m Enter the target name: ")
+target_email = input("\033[31;1m Entet the target email: ")
+
+to = [{"email":target_email,"name":target_name}]
 cc = [{"email":"example2@example2.com","name":"pata nahi"}]
 bcc = [{"name":"sala","email":"example@example.com"}]
-reply_to = {"email":"replyto@domain.com","name":""}
+reply_to = {"email":"donotreply@domain.com","name":""}
 headers = {"Some-Custom-Name":"unique-id-1234"}
 params = {"parameter":"My param value","subject":subject}
 send_smtp_email = sib_api_v3_sdk.SendSmtpEmail(to=to, bcc=bcc, cc=cc, reply_to=reply_to, headers=headers, html_content=html_content, sender=sender, subject=subject)
