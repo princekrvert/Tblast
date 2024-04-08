@@ -9,12 +9,13 @@
 ## Termux setup
 ```
 git clone https://github.com/princekrvert/Tblast.git
+cd Tblast
 chomd +x Tblast.py
 ./Tblast.py
 ```
 ## One line cmd
 ```
-git clone https://github.com/princekrvert/Tblast.git;chomd +x Tblast.py;python Tblast.py -h
+git clone https://github.com/princekrvert/Tblast.git;cd Tblast;chomd +x Tblast.py;python Tblast.py -h
 ```
 
  ### social media 
